@@ -55,7 +55,8 @@ console.log(value, dec_value, long_value, very_long_neg_value);
 }
 {
     let x =3;
-    let result = --x + ++x - x + x-- - x;
+    let answer = --x + ++x - x + x-- - x;
+    console.log(answer)
 }
 
 // comparation of numbers
