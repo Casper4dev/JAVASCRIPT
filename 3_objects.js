@@ -39,6 +39,7 @@ const color = 'White'
 //     color: color
 // }
 const car ={make, model, color};
+console.log(make, model, color)
 const product={
     id:1,
     title: "new collection",
