@@ -31,14 +31,14 @@ const new_tag = document.querySelector("ul");
 const child_selector = document.querySelector(".container > h1");
 
 //accessing elements by query selector all
-let all_lists = document.querySelectorAll(".list")
+let all_lists = document.querySelectorAll(".list");
 console.log(all_lists)
 
 
 //changing CSS Styling on the DOM
 const heading = document.querySelector("#title");
 console.log(heading);
-heading.style.color = "blue";
+heading.style.color = "red";
 heading.style.backgroundColor = "teal";
 heading.style.color ="white";
 heading.innertext ="Updated Movie List";

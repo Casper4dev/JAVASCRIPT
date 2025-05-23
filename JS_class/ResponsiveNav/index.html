@@ -24,5 +24,18 @@
           
         </div>
     </header>
+    <script>
+        const btn = document.querySelector(".close");
+        const nav = document.querySelector(".nav-container > nav");
+        btn.onclick = ()=>{
+            if(nav.style.display == "block"){
+                nav.style.display = "none";
+                btn.setAttribute("src", "./images/icon-menu.svg");
+            }else{
+                nav.style.display = "block";
+                btn.setAttribute("src", "./images/icon-close.svg");
+            }
+        }
+    </script>
 </body>
 </html>

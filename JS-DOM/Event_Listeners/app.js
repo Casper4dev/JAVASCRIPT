@@ -17,6 +17,6 @@ function hoverMe(){
 }
 
 btn.addEventListener('mousehover', hoverMe);
-btn.addEventListener('mlouseout', ()=>{
+btn.addEventListener('mouseout', ()=>{
     this.style.backgroundColor ="red";
 });
